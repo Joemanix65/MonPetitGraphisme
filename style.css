@@ -1,27 +1,29 @@
-.logo {
-    height: 40px;
-    width: auto;
-    margin-right: 80em;
-    
-}
-.page-header{
-    border: solid 1px #d30d0d;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:  10px 20px 10px 20px;   
-}
-.hnav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-	font-family: 'Raleway', sans-serif;
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
 }
 
-body 
-{
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
-    background-color: #F2F2F2 ;
+#container {
+	width: 100%;
+	max-width: 1200px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	list-style: none;
+	padding-left: 30px;
 }
