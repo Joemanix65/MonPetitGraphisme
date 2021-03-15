@@ -27,3 +27,83 @@ nav li {
 	list-style: none;
 	padding-left: 30px;
 }
+
+#banniere {
+	height: 450px;
+	position: relative;
+}
+
+#banniereImg {
+	position: absolute;
+	width: 100%;
+    height: 100%;
+}
+
+#banniereContent {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#banniereContentLogo {
+    width: 200px;
+}
+
+#banniereContent h1 {
+	color: white;
+	font-weight: 400;
+}
+
+#presentation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#presentationIntro, #presentationSkills {
+	margin-top: 30px;
+	max-width: 800px;
+}
+
+#presentationIntro p {
+	color: rgb(87,87,87);
+	font-size: 1.4em;
+	text-align: center;
+} 
+
+#presentationSkills {
+	display: flex;
+	justify-content: space-around;
+}
+
+#presentationSkills article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+#presentationSkills h2 {
+	font-size: 1.4em;
+	font-weight: 400;    
+    text-transform: uppercase;
+}
+
+#presentationSkills p {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#temoignage  {
+	max-width: 500px;
+	margin-top: 50px;
+}
+
+#temoignage p {
+	text-align: center;
+	color: rgb(87,87,87);
+}
