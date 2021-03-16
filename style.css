@@ -106,7 +106,6 @@ nav li {
 #temoignage p {
 	text-align: center;
 	color: rgb(87,87,87);
-<<<<<<< HEAD
 }
 
 footer {
@@ -128,7 +127,7 @@ footer {
 }
 
 #icon {
-    height: 60px;
+    height: 40px;
 	color: rgba(255, 255, 255, .6);
 	margin: 0px 40px 0 40px;
 }
@@ -149,7 +148,3 @@ footer {
 .footerColumn li, .footerColumn p {
 	color: white;
 }
-
-=======
-}
->>>>>>> main
